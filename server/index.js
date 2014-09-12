@@ -37,7 +37,7 @@ app.use(expressValidator());
 app.use(app.router);
 
 var publicDir = path.join( __dirname, '..', 'public' );
-app.use( require('less-middleware')( publicDir ) );
+// app.use( require('less-middleware')( publicDir ) );
 app.use( express.static( publicDir ) );
 
 // development only

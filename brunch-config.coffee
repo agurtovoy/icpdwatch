@@ -10,7 +10,6 @@ exports.config =
     javascripts:
       joinTo:
         'javascripts/client.js': /^client\/app/
-        'javascripts/vendor.js': /^client\/(vendor|bower_components)/
 
     stylesheets:
       joinTo:
