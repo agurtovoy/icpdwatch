@@ -1,0 +1,14 @@
+{
+  "name": "jz4justice",
+  "version": "0.0.1",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "jquery": "~1.10.2",
+    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git"
+  }
+}
