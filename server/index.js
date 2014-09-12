@@ -46,5 +46,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get( '/', routes.page.bind( app, 'index' ) );
+app.get( '/ICPD-party-bust-2014-09-06', function( req, res ) { res.redirect( 'https://medium.com/@VoteNoNewJail/icpd-party-bust-7b2516208cde' ); } );
+app.get( '/no-justice-no-peace', function( req, res ) { res.redirect( 'https://medium.com/@VoteNoNewJail/re-icpd-party-bust-d55d89530c00' ); } );
 
 exports.app = app;
