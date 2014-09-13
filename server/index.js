@@ -50,5 +50,6 @@ app.get( '/', function( req, res ) { res.redirect( 'https://medium.com/@ICPDwatc
 app.get( '/ICPD-party-bust-2014-09-06', function( req, res ) { res.redirect( 'https://medium.com/@VoteNoNewJail/icpd-party-bust-7b2516208cde' ); } );
 app.get( '/no-justice-no-peace', function( req, res ) { res.redirect( 'https://medium.com/@VoteNoNewJail/re-icpd-party-bust-d55d89530c00' ); } );
 app.get( '/2014-09-06-raid-testimony', function( req, res ) { res.redirect( 'https://www.youtube.com/watch?v=G5-te39yvYY' ); } );
+app.get( '/2014-09-06-raid-press-release', function( req, res ) { res.redirect( 'https://medium.com/@ICPDwatch/press-release-witness-of-the-9-6-14-police-raid-comes-forward-with-testimony-1cba6f844e52' ); } );
 
 exports.app = app;
